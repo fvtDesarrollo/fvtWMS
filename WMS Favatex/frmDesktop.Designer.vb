@@ -88,6 +88,7 @@ Partial Class frmDesktop
         Me.OrdenDePkToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AlturaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MovEntrePisosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AjustesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.mmu_FillRate = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformeDeVentasPendientesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -110,7 +111,6 @@ Partial Class frmDesktop
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.AjustesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -547,6 +547,12 @@ Partial Class frmDesktop
         Me.MovEntrePisosToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
         Me.MovEntrePisosToolStripMenuItem.Text = "mov entre pisos"
         '
+        'AjustesToolStripMenuItem
+        '
+        Me.AjustesToolStripMenuItem.Name = "AjustesToolStripMenuItem"
+        Me.AjustesToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
+        Me.AjustesToolStripMenuItem.Text = "Ajustes ubicaciones"
+        '
         'InformesToolStripMenuItem
         '
         Me.InformesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mmu_FillRate, Me.InformeDeVentasPendientesToolStripMenuItem1})
@@ -742,12 +748,6 @@ Partial Class frmDesktop
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
-        '
-        'AjustesToolStripMenuItem
-        '
-        Me.AjustesToolStripMenuItem.Name = "AjustesToolStripMenuItem"
-        Me.AjustesToolStripMenuItem.Size = New System.Drawing.Size(248, 22)
-        Me.AjustesToolStripMenuItem.Text = "ajustes"
         '
         'frmDesktop
         '
